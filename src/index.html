@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Tugas Bootstrap1</title>
+
+    <meta
+      name="description"
+      content="Source code generated using layoutit.com"
+    />
+    <meta name="author" content="LayoutIt!" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Header Awal -->
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/3.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Header Akhir -->
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Navbar awal -->
+          <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">COVID ID</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      -- Data Covid Global --
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >-- Data Covid Indonesia --</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >-- Data Covid China --</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >-- Data Covid USA --</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Navbar akhir -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Left Side Bar awal -->
+          <div class="list-group">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action active mt-3"
+              aria-current="true"
+            >
+              Vaksin yang tersedia
+            </a>
+            <a href="#" class="list-group-item list-group-item-action"
+              >Vaksin 1</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              >Vaksin 2</a
+            >
+            <a href="#" class="list-group-item list-group-item-action"
+              >Vaksin booster 1</a
+            >
+            <a class="list-group-item list-group-item-action disabled"
+              >Vaksin booster 2</a
+            >
+          </div>
+          <p class="mt-3">
+            <a
+              class="btn btn-primary"
+              data-bs-toggle="collapse"
+              href="#multiCollapseExample1"
+              role="button"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample1"
+              >About Me</a
+            >
+            <button
+              class="btn btn-primary mt-1"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#multiCollapseExample2"
+              aria-expanded="false"
+              aria-controls="multiCollapseExample2"
+            >
+              About This Page
+            </button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  Saya Satria Ardhya Naufal, Mahasiswa Sekolah Tinggi Teknologi
+                  Terpadu Nurul Fikri semester 5 jurusan Teknik Informatika
+                  lahir di depok 18 juni 2002 :)
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  Disini saya mencoba membuat halaman form register untuk
+                  menginput data orang-orang yang ingin vaksin.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Left Side Bar akhir -->
+        </div>
+        <div class="col-md-6 mt-3">
+          <!-- Main page awal -->
+          <div class="card" style="width: 100%">
+            <div class="card-body">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nama Lengkap"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="E-Mail"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+                <span class="input-group-text" id="basic-addon2"
+                  >@gmail.com</span
+                >
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label"
+                  >Password</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword"
+                  />
+                </div>
+              </div>
+              <div class="input-group">
+                <span class="input-group-text">Komentar</span>
+                <textarea
+                  class="form-control"
+                  aria-label="With textarea"
+                ></textarea>
+              </div>
+              <a href="#" class="btn btn-primary mt-2">Submit</a>
+            </div>
+          </div>
+          <!-- Main page akhir -->
+        </div>
+        <div class="col-md-3 mt-3">
+          <!-- Right Side Bar Awal -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Apa itu COVID-19?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Corona Virus Disease 2019 atau yang biasa disingkat COVID-19
+                    adalah penyakit menular yang disebabkan oleh SARS-CoV-2,
+                    salah satu jenis koronavirus. Penderita COVID-19 dapat
+                    mengalami demam, batuk kering, dan kesulitan bernafas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Ciri-ciri gejala COVID-19
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <h4>Gejala yang paling umum:</h4>
+                  <ul>
+                    <li>Demam</li>
+                    <li>Batuk</li>
+                    <li>Kelelahan</li>
+                    <li>Kehilangan rasa atau bau</li>
+                  </ul>
+                  <h4>Gejala yang sedikit tidak umum:</h4>
+                  <ul>
+                    <li>sakit tenggorokan</li>
+                    <li>sakit kepala</li>
+                    <li>sakit dan nyeri</li>
+                    <li>mata merah atau iritasi</li>
+                  </ul>
+                  <h4>Gejala serius:</h4>
+                  <ul>
+                    <li>kesulitan bernapas atau sesak napas</li>
+                    <li>kesulitan berbicara atau bergerak, atau bingung</li>
+                    <li>nyeri dada</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Right Side Bar Akhir -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <!-- Footer Awal -->
+          <div class="alert alert-warning text-center" role="alert">
+            Developed By Satria
+          </div>
+          <!-- Footer Akhir -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Online -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
